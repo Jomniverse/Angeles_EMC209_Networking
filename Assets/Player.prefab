@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4734652141753530500}
   - component: {fileID: 9023342995135369133}
   - component: {fileID: -2325363961436200615}
+  - component: {fileID: 4345378643518956935}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -244,3 +245,16 @@ MonoBehaviour:
   moveSpeed: 5
   gravity: -9.81
   groundedGravity: -2
+--- !u!114 &4345378643518956935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018926641141139143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316116e466cca2646a5ea0aab30d7645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalPlayerCameraTarget
+  ShowTopMostFoldoutHeaderGroup: 1

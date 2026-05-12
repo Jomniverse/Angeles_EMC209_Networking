@@ -52,6 +52,6 @@ public class SpawnPointManager : NetworkBehaviour
             nextSpawnIndex = 0;
         }
 
-        MultiplayerMenu.instance.playerCounts.Value++;
+        PlayerCount.instance.playerCounts.Value++;
     }
 }
