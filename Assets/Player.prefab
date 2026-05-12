@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerColorManager
   ShowTopMostFoldoutHeaderGroup: 1
-  playerRenderer: {fileID: 0}
+  playerRenderer: {fileID: 4602537476589401078}
   playerMaterials:
   - {fileID: 2100000, guid: d5bf38fc54e7b3e49847112a809aed66, type: 2}
   - {fileID: 2100000, guid: 82de8c6a30eb6e24f8683a8a6d5c6de9, type: 2}
