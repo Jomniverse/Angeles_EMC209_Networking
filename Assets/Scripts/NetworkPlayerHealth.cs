@@ -49,7 +49,7 @@ public class NetworkPlayerHealth : NetworkBehaviour
 
         if (healthText != null)
         {
-            healthText.text = "HP: “ + CurrentHealth.Value “ / “ + maxHealth.ToString";
+            healthText.text = "HP: " + CurrentHealth.Value + "/" + maxHealth;
         }
     }
 
