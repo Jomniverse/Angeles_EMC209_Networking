@@ -19,7 +19,9 @@ GameObject:
   - component: {fileID: -2325363961436200615}
   - component: {fileID: 4345378643518956935}
   - component: {fileID: -3502281513066422996}
-  m_Layer: 0
+  - component: {fileID: 270259588698938959}
+  - component: {fileID: -4953144881279803383}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -278,3 +280,41 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 82de8c6a30eb6e24f8683a8a6d5c6de9, type: 2}
   - {fileID: 2100000, guid: e8094c255a647274a8d4834aeff70ede, type: 2}
   - {fileID: 2100000, guid: ce8c8b8237651c249836c1f05ca17591, type: 2}
+--- !u!114 &270259588698938959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018926641141139143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d46f9fbcd2d80e4c969d0b8a8a4e2c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerHealth
+  ShowTopMostFoldoutHeaderGroup: 1
+  maxHealth: 100
+  CurrentHealth:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue: 100
+--- !u!114 &-4953144881279803383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018926641141139143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3706735414cec3c4fb855a287789b44f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerAttack
+  ShowTopMostFoldoutHeaderGroup: 1
+  attackRange: 3
+  damageAmount: 25
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  attackKey: 32
