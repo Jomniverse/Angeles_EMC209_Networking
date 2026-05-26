@@ -248,6 +248,7 @@ MonoBehaviour:
   moveSpeed: 5
   gravity: -9.81
   groundedGravity: -2
+  jumpForce: 5
 --- !u!114 &4345378643518956935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,6 +294,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerHealth
   ShowTopMostFoldoutHeaderGroup: 1
+  healthTextPrefab: {fileID: 4984230773469523567, guid: f7435b4c153082145a0ca099f396834e, type: 3}
+  damageTextPrefab: {fileID: 4984230773469523567, guid: b64baac9365891d44b9a1e5288f98156, type: 3}
   maxHealth: 100
   CurrentHealth:
     UpdateTraits:
